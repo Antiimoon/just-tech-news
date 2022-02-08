@@ -1,8 +1,14 @@
+const bcrypt = require('bcrypt');
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
+
 // create our User model
 class User extends Model {}
+
+bcrypt.hash(myPlaintextPassword, saltRounds).then(function(hash) {
+    // store has in your password DB.
+});
 
 // define table columns and configuration
 User.init(
