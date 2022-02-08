@@ -1,0 +1,31 @@
+{
+  "name": "just-tech-news",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Antiimoon/just-tech-news.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Antiimoon/just-tech-news/issues"
+  },
+  "homepage": "https://github.com/Antiimoon/just-tech-news#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mariadb": "^2.5.5",
+    "mysql2": "^2.3.3",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.15.1",
+    "sqlite3": "^5.0.2",
+    "tedious": "^14.2.0"
+  }
+}
